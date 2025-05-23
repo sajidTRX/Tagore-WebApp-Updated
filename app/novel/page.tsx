@@ -307,8 +307,8 @@ export default function NovelMode() {
           <textarea
             ref={textareaRef}
             value={content}
-            onChange={(e) => setContent(e.target.value)}
-            className="h-full w-full resize-none bg-transparent font-serif text-lg leading-relaxed text-gray-800 focus:outline-none"
+            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setContent(e.target.value)}
+            className="h-full w-full resize-none bg-transparent font-mono text-lg leading-relaxed text-gray-800 focus:outline-none"
             placeholder="Start writing..."
           />
         </div>

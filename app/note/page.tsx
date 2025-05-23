@@ -355,7 +355,7 @@ export default function NoteMode() {
             ref={textareaRef}
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            className="h-full w-full resize-none bg-transparent font-serif text-lg leading-relaxed text-gray-800 focus:outline-none"
+            className="h-full w-full resize-none bg-transparent font-mono text-lg leading-relaxed text-gray-800 focus:outline-none"
             placeholder="Start taking notes..."
           />
         </div>

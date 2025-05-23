@@ -246,7 +246,7 @@ export default function HomeScreen() {
       <div className="border-t border-gray-300 px-6 py-4 text-center text-sm text-gray-700">
         <div className="mb-4 text-xs font-mono text-gray-600">
           <h3 className="text-sm font-bold text-gray-900">Tip of the Day</h3>
-          <p className="mt-2 font-bold">"Write with the door closed, rewrite with the door open." - Stephen King</p>
+          <p className="mt-2 font-bold">"Faith is the bird that feels the light and sings when the dawn is still dark."-Rabindranath Tagore</p>
         </div>
         <CurrentClock />
       </div>
